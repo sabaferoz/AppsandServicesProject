@@ -13,7 +13,7 @@ USE_PACKAGE_DIR = False
 
 # execute crawl without prompting user for any parameters
 # put to True if you are running jobs automatically
-BATCH_MODE = False
+BATCH_MODE = True
 
 #PROVIDER = None
 PROVIDER = ''
@@ -88,7 +88,7 @@ STD_HEADERS = {
 ################################################################################
 # for start_pytomo.py
 
-STATIC_URL_LIST = ["https://www.youtube.com/watch?v=WCS1QBlkEso"]
+STATIC_URL_LIST = ["https://www.youtube.com/watch?v=WCS1QBlkEso", "https://www.youtube.com/watch?v=YD6QCEVDw20" ]
 INPUT_FILE = None
 
 # Max number of rounds to perform
