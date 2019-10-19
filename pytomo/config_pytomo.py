@@ -44,12 +44,12 @@ CENTRALISE_DATA = False
 CENTRALISATION_SERVER = 'pytomo.dtdns.net'
 
 # loop on input links
-LOOP = True
+LOOP = False
 #LOOP = True
 
 # take related links
 #RELATED = True
-RELATED = False
+RELATED = True
 
 # Image file to save the graphs
 PLOT = False
@@ -88,7 +88,7 @@ STD_HEADERS = {
 ################################################################################
 # for start_pytomo.py
 
-STATIC_URL_LIST = ["https://www.youtube.com/watch?v=WCS1QBlkEso", "https://www.youtube.com/watch?v=YD6QCEVDw20" ]
+STATIC_URL_LIST = ["https://www.youtube.com/watch?v=kJQP7kiw5Fk", "https://www.youtube.com/watch?v=e-ORhEE9VVg", "https://www.youtube.com/watch?v=k2qgadSvNyU", "https://www.youtube.com/watch?v=SlPhMPnQ58k", "https://www.youtube.com/watch?v=anFxsa5jXrE", "https://www.youtube.com/watch?v=GR-Ui8-V2M0", "https://www.youtube.com/watch?v=kRC4e3pEIpI", "https://www.youtube.com/watch?v=OM6xvpzqCUA", "https://www.youtube.com/watch?v=bddBfkS0O7k", "https://www.youtube.com/watch?v=5iPH-br_eJQ", "https://www.youtube.com/watch?v=K-4Tkp_2abs", "https://www.youtube.com/watch?v=G7TXS424Q6M", "https://www.youtube.com/watch?v=pTKXPZbWYt0", "https://www.youtube.com/watch?v=JeIlh-Pzpcg", "https://www.youtube.com/watch?v=tOVGkmx7_es", "https://www.youtube.com/watch?v=31jvtk3Z8AU", "https://www.youtube.com/watch?v=6aLyJo95_Ao", "https://www.youtube.com/watch?v=2mUSusEPRdA", "https://www.youtube.com/watch?v=b_gW-jywppU", "https://www.youtube.com/watch?v=sFvr_UsepeM", "https://www.youtube.com/watch?v=WpjXvPkyVxY", "https://www.youtube.com/watch?v=fY6BfAg1Ksc", "https://www.youtube.com/watch?v=uTQIi7Y8bzo"]
 INPUT_FILE = None
 
 # Max number of rounds to perform
@@ -261,10 +261,6 @@ snmp_pytomoIpCount = '.' .join((snmp_pytomoIpStats,'2'))
 snmp_pytomoASStats = '.'.join((ROOT_OID, '4', '1', '1'))
 snmp_pytomoASName = '.'.join((snmp_pytomoASStats,'1'))
 snmp_pytomoASCount = '.'.join((snmp_pytomoASStats,'2'))
-
-
-
-
 
 URL_IDX = 2
 TS_IDX = 0
