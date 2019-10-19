@@ -44,12 +44,12 @@ CENTRALISE_DATA = False
 CENTRALISATION_SERVER = 'pytomo.dtdns.net'
 
 # loop on input links
-LOOP = False
+LOOP = True
 #LOOP = True
 
 # take related links
 #RELATED = True
-RELATED = True
+RELATED = False
 
 # Image file to save the graphs
 PLOT = False
@@ -88,7 +88,7 @@ STD_HEADERS = {
 ################################################################################
 # for start_pytomo.py
 
-STATIC_URL_LIST = []
+STATIC_URL_LIST = ["https://www.youtube.com/watch?v=WCS1QBlkEso"]
 INPUT_FILE = None
 
 # Max number of rounds to perform
